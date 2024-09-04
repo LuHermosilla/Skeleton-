@@ -1,0 +1,25 @@
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 20px;
+  background: #3b82c9; // Fondo oscuro para el contenedor general
+}
+  ion-datetime {
+  --background: rgb(102, 100, 103);
+  --background-rgb: 245, 235, 247;
+  --wheel-highlight-background: rgb(203, 200, 206);
+  --wheel-highlight-border-radius: 48px;
+  --wheel-fade-background-rgb: 245, 235, 247;
+  }
+
+  ion-datetime::part(wheel-item) {
+  color: rgb(8, 8, 8);
+  }
+
+  ion-datetime::part(wheel-item active) {
+  color: rgb(128, 30, 171);
+  }

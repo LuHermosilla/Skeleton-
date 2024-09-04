@@ -1,0 +1,7 @@
+{
+  "name": "Skeletton",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
